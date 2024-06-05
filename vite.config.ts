@@ -45,6 +45,9 @@ export default defineConfig({
       version: JSON.stringify(process.env.npm_package_version),
     },
   },
+  server: {
+    preTransformRequests: false,
+  },
   resolve: {
     alias: {
       '@tests': path.resolve(__dirname) + '/tests',

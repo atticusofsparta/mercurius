@@ -19,8 +19,11 @@
     "vis": "yarn vite-bundle-visualizer"
   },
   "dependencies": {
+    "@permaweb/aoconnect": "^0.0.55",
     "@sentry/browser": "^7.101.1",
     "@sentry/react": "^7.101.1",
+    "@thirdweb-dev/react": "^4.6.31",
+    "arbundles": "^0.11.1",
     "axios": "^1.6.7",
     "axios-retry": "^4.0.0",
     "eslint-plugin-tailwindcss": "^3.14.2",
@@ -29,7 +32,9 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.1",
     "tailwindcss-animate": "^1.0.7",
+    "thirdweb": "^5.28.0",
     "ts-jest": "^29.1.2",
+    "warp-arbundles": "^1.0.4",
     "winston": "^3.11.0",
     "zustand": "^4.5.1"
   },
